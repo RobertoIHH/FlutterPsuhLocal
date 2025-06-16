@@ -20,7 +20,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.notificaciones_app"
+    // ✅ CAMBIAR: usar el mismo paquete que MainActivity.kt
+    namespace = "com.example.pushnotifi"
     compileSdk = 34
 
     compileOptions {
@@ -38,7 +39,8 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.notificaciones_app"
+        // ✅ CAMBIAR: usar el mismo paquete que MainActivity.kt
+        applicationId = "com.example.pushnotifi"
         minSdk = 21
         targetSdk = 34
         versionCode = flutterVersionCode.toInt()
@@ -60,5 +62,5 @@ flutter {
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:1.2.2")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10")
-    implementation("androidx.multidex:multidx:2.0.1")
+    implementation("androidx.multidex:multidex:2.0.1")
 }
