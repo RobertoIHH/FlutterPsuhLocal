@@ -38,7 +38,7 @@ PushNotifi es una aplicación desarrollada en Flutter que demuestra la implement
 
 1. **Clonar el repositorio**
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/RobertoIHH/FlutterPsuhLocal.git
    cd pushnotifi
    ```
 
